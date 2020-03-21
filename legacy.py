@@ -1,10 +1,13 @@
+## @file
 
+## core AST class
 class AST:
     def __init__(self, V):
         self.type = self.__class__.__name__.lower()
         self.val = V
         self.nest = []
         self.attr = {}
+        self.rid = id(self)
 
     def __repr__(self):
         return self.dump()
@@ -18,7 +21,7 @@ class AST:
         return tree
 
     def head(self, prefix=''):
-        return '%s<%s:%s>' % (prefix, self.type, self.val)
+        return '%s<%s:%s> @%i/%i' % (prefix, self.type, self.val, id(self), self.rid)
 
     def pad(self, depth):
         return '\n' + '\t' * depth
@@ -42,26 +45,33 @@ class AST:
         self.nest.append(that)
         return self
 
+## function arguments container
 class Tuple(AST):
     pass
 
+## C types
 class Type(AST):
     pass
 
+## `int`
 class Int(Type):
     pass
 
+## `char`
 class Char(Type):
     pass
 
+## pointer
 class Ptr(Type):
     def __init__(self, V):
         Type.__init__(self, '')
         self // V
 
+## function
 class Fn(AST):
     pass
 
+## `return` statement
 class Return(AST):
     pass
 

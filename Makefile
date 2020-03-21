@@ -10,6 +10,13 @@ all: $(PY) ./$(MODULE).py $(MODULE).ini
 	$^
 
 
+
+.PHONY: doxy
+doxy: doxy.gen
+	rm -rf $(CWD)/docs ; doxygen doxy.gen 1>/dev/null
+
+
+
 .PHONY: install
 install: os $(PIP)
 	$(PIP) install    -r requirements.txt

@@ -1,0 +1,9 @@
+<map id="legacy.AST" name="legacy.AST">
+<area shape="rect" id="node2" href="$classlegacy_1_1Fn.html" title="function " alt="" coords="5,80,84,107"/>
+<area shape="rect" id="node3" href="$classlegacy_1_1Return.html" title="return statement " alt="" coords="108,80,211,107"/>
+<area shape="rect" id="node4" href="$classlegacy_1_1Tuple.html" title="function arguments container " alt="" coords="235,80,331,107"/>
+<area shape="rect" id="node5" href="$classlegacy_1_1Type.html" title="C types. " alt="" coords="355,80,449,107"/>
+<area shape="rect" id="node6" href="$classlegacy_1_1Char.html" title="char " alt="" coords="247,155,339,181"/>
+<area shape="rect" id="node7" href="$classlegacy_1_1Int.html" title="int " alt="" coords="363,155,441,181"/>
+<area shape="rect" id="node8" href="$classlegacy_1_1Ptr.html" title="pointer " alt="" coords="465,155,547,181"/>
+</map>

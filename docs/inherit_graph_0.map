@@ -1,0 +1,10 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classlegacy_1_1AST.html" title="core AST class " alt="" coords="5,81,96,108"/>
+<area shape="rect" id="node2" href="$classlegacy_1_1Fn.html" title="function " alt="" coords="156,5,235,32"/>
+<area shape="rect" id="node3" href="$classlegacy_1_1Return.html" title="return statement " alt="" coords="144,56,247,83"/>
+<area shape="rect" id="node4" href="$classlegacy_1_1Tuple.html" title="function arguments container " alt="" coords="147,107,243,133"/>
+<area shape="rect" id="node5" href="$classlegacy_1_1Type.html" title="C types. " alt="" coords="149,157,242,184"/>
+<area shape="rect" id="node6" href="$classlegacy_1_1Char.html" title="char " alt="" coords="295,107,387,133"/>
+<area shape="rect" id="node7" href="$classlegacy_1_1Int.html" title="int " alt="" coords="301,157,380,184"/>
+<area shape="rect" id="node8" href="$classlegacy_1_1Ptr.html" title="pointer " alt="" coords="300,208,381,235"/>
+</map>
