@@ -4,7 +4,9 @@ MODULE = $(notdir $(CWD))
 PIP = $(CWD)/bin/pip3
 PY  = $(CWD)/bin/python3
 
-all: $(PY) ex.py
+
+.PHONY: all
+all: $(PY) ./$(MODULE).py $(MODULE).ini
 	$^
 
 
